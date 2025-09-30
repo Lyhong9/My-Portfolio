@@ -4,11 +4,11 @@ export default function AboutPage() {
   return (
     <>
       <Navigation />
-      <main className="ml-64 min-h-screen p-12">
+      <main className="min-h-screen p-4 pt-20 md:ml-64 md:p-12 md:pt-12">
         <div className="mx-auto max-w-4xl">
-          <h1 className="mb-8 text-5xl font-bold">About Me</h1>
+          <h1 className="mb-6 text-3xl font-bold md:mb-8 md:text-5xl">About Me</h1>
 
-          <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
+          <div className="space-y-4 text-base leading-relaxed text-muted-foreground md:space-y-6 md:text-lg">
             <p>
               I'm a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful
               design with robust engineering. My favorite work lies at the intersection of design and development,
@@ -28,12 +28,12 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <section className="mt-16">
-            <h2 className="mb-6 text-3xl font-bold">Experience</h2>
+          <section className="mt-12 md:mt-16">
+            <h2 className="mb-4 text-2xl font-bold md:mb-6 md:text-3xl">Experience</h2>
             <div className="space-y-8">
-              <div className="border-l-2 border-accent pl-6">
-                <div className="mb-2 flex items-baseline justify-between">
-                  <h3 className="text-xl font-semibold">Senior Frontend Engineer</h3>
+              <div className="border-l-2 border-accent pl-4 md:pl-6">
+                <div className="mb-2 flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
+                  <h3 className="text-lg font-semibold md:text-xl">Senior Frontend Engineer</h3>
                   <span className="text-sm text-muted-foreground">2024 — Present</span>
                 </div>
                 <p className="mb-2 text-accent">Company Name</p>
@@ -54,9 +54,9 @@ export default function AboutPage() {
                 </div>
               </div>
 
-              <div className="border-l-2 border-border pl-6">
-                <div className="mb-2 flex items-baseline justify-between">
-                  <h3 className="text-xl font-semibold">Frontend Developer</h3>
+              <div className="border-l-2 border-border pl-4 md:pl-6">
+                <div className="mb-2 flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
+                  <h3 className="text-lg font-semibold md:text-xl">Frontend Developer</h3>
                   <span className="text-sm text-muted-foreground">2022 — 2024</span>
                 </div>
                 <p className="mb-2 text-muted-foreground">Previous Company</p>
@@ -68,8 +68,8 @@ export default function AboutPage() {
             </div>
           </section>
 
-          <section className="mt-16">
-            <h2 className="mb-6 text-3xl font-bold">Skills</h2>
+          <section className="mt-12 md:mt-16">
+            <h2 className="mb-4 text-2xl font-bold md:mb-6 md:text-3xl">Skills</h2>
             <div className="grid gap-4 md:grid-cols-2">
               <div className="rounded-lg border border-border bg-card p-6">
                 <h3 className="mb-3 text-lg font-semibold text-card-foreground">Frontend</h3>
