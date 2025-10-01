@@ -9,9 +9,9 @@ export default function HomePage() {
         <div className="mx-auto max-w-4xl px-6 py-12 lg:p-12">
           <div className="flex min-h-[80vh] flex-col justify-center">
             <h1 className="mb-6 text-4xl font-bold leading-tight text-balance sm:text-5xl lg:text-6xl">
-              Hi, I'm <span className="text-accent">Your Name</span>
+              Hi, I'm <span className="text-accent">Lyhong</span>
             </h1>
-            <h2 className="mb-8 text-2xl font-medium text-muted-foreground sm:text-3xl">Front End Developer</h2>
+            <h2 className="mb-8 text-2xl font-medium text-muted-foreground sm:text-3xl">Full Stack Developer</h2>
             <p className="max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
               I build accessible, pixel-perfect digital experiences for the web. Passionate about crafting beautiful
               interfaces that blend thoughtful design with robust engineering.
